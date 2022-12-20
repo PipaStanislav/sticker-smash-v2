@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "StickerSmashV2",
-    "slug": "StickerSmashV2",
+    "slug": "sticker-smash-v2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#25292e"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0503dfd4-3da1-4727-b177-95a5631922d0"
+      }
+    },
+    "owner": "pipa_stanislav"
   }
 }
